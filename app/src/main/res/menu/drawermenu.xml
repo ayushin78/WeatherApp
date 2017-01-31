@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item>
+    </item>
+        <item android:title="Add a city"
+            android:icon="@drawable/addicon"
+            android:id="@+id/add"></item></group>
+
+
+</menu>
