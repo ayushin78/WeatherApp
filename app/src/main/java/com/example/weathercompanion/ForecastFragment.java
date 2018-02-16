@@ -244,7 +244,7 @@ public class ForecastFragment extends Fragment {
                 double morningTemp=temperatureObject.getDouble("morn");
                 double eveTemp=temperatureObject.getDouble("eve");
                 double nightTemp=temperatureObject.getDouble("night");
-                result+="\nTemperature:\nMinimum: "+low+" °C\nMaximum: "+high+" °C\n  Day Temp: "+dayTemp+" °C\n  Morning Temp: "+morningTemp+" °C\n  Evening Temp: "+eveTemp+" °C\n  Night Temp: "+nightTemp+" °C\n\n";
+                result+="\nTemperature:\nMinimum: "+low+" °C\nMaximum: "+high+" °C\nDay Temp: "+dayTemp+" °C\nMorning Temp: "+morningTemp+" °C\nEvening Temp: "+eveTemp+" °C\nNight Temp: "+nightTemp+" °C\n\n";
                 result+="Wind \nSpeed: "+ jsonHelperGetString(dayForecast,OWM_SPEED)+" m/s\nDeg: "+jsonHelperGetString(dayForecast,"deg")+"\n\n";
                 result+="Humidity: "+jsonHelperGetString(dayForecast,OWM_HUMIDITY)+"%\n\n";
                 result+="Pressure: "+jsonHelperGetString(dayForecast,OWM_PRESSURE)+"MB\n\n";
