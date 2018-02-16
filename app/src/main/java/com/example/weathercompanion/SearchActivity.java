@@ -116,7 +116,7 @@ public class SearchActivity extends AppCompatActivity {
             }
         });
 
-        appLocationService = new AppLocationService(SearchActivity.this);
+        appLocationService = new AppLocationService(SearchActivity.this); // added nothing
 
         Location gpsLocation = appLocationService.getLocation(LocationManager.GPS_PROVIDER);
         Location networkLocation =  appLocationService.getLocation(LocationManager.NETWORK_PROVIDER);
