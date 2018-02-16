@@ -105,7 +105,9 @@ public class SearchActivity extends AppCompatActivity {
                 SearchActivity.this.startActivity(startIntent);
             }
         });
+}
 
+/*
         btnLocate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)
@@ -182,6 +184,7 @@ public class SearchActivity extends AppCompatActivity {
         }
 
     }
+*/
     @Override
     public void onBackPressed()
     {
