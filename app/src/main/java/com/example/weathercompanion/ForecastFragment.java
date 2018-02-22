@@ -35,11 +35,11 @@ import java.util.ArrayList;
 
 public class ForecastFragment extends Fragment {
 
-        String selectedDay;
+    String selectedDay;
 
     public String[] forecastDetail=new String[100];
     ProgressDialog pDialog;
-     public String[] days=new String[30];
+    public String[] days=new String[30];
     String result;
 
     private ArrayAdapter<String> mForecastAdapter;
